@@ -4,6 +4,17 @@ using UnityEngine;
 
 public class WaveSpawner : MonoBehaviour {
 
+<<<<<<< HEAD
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+=======
 	public enum spawnState {SPAWNING, WAITING, COUNTING};
 
 	[System.Serializable]
@@ -97,4 +108,5 @@ public class WaveSpawner : MonoBehaviour {
 		Debug.Log("Spawning enemy: " + _enemy.name);
 	}
 
+>>>>>>> 70436c352e4f3dd7ce29ee1c2142d346cc27592a
 }
