@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 800356373}
-  m_IndirectSpecularColor: {r: 0.45110965, g: 0.5009104, b: 0.5740295, a: 1}
+  m_IndirectSpecularColor: {r: 0.45110947, g: 0.5009102, b: 0.57402885, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -34511,6 +34511,38 @@ Prefab:
       propertyPath: InitialModule.startSize.minScalar
       value: 1.0000
       objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 921a3ff88856fe04ebc86b196fd8cc59, type: 2}
+      propertyPath: InitialModule.startRotationX.scalar
+      value: 0.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 921a3ff88856fe04ebc86b196fd8cc59, type: 2}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 0.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 921a3ff88856fe04ebc86b196fd8cc59, type: 2}
+      propertyPath: InitialModule.startLifetime.minScalar
+      value: 4.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 921a3ff88856fe04ebc86b196fd8cc59, type: 2}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 921a3ff88856fe04ebc86b196fd8cc59, type: 2}
+      propertyPath: InitialModule.startRotationX.scalar
+      value: 0.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 921a3ff88856fe04ebc86b196fd8cc59, type: 2}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 0.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 921a3ff88856fe04ebc86b196fd8cc59, type: 2}
+      propertyPath: InitialModule.startLifetime.minScalar
+      value: 4.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 921a3ff88856fe04ebc86b196fd8cc59, type: 2}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 1.0000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 921a3ff88856fe04ebc86b196fd8cc59, type: 2}
   m_IsPrefabParent: 0
@@ -34998,6 +35030,30 @@ Prefab:
     - target: {fileID: 19800000, guid: 1f7aa4d40edff6e48b549003cad031e1, type: 2}
       propertyPath: ColorModule.gradient.maxGradient.atime2
       value: 44140
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 1f7aa4d40edff6e48b549003cad031e1, type: 2}
+      propertyPath: InitialModule.startRotationX.scalar
+      value: 0.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 1f7aa4d40edff6e48b549003cad031e1, type: 2}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 0.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 1f7aa4d40edff6e48b549003cad031e1, type: 2}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 15.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 1f7aa4d40edff6e48b549003cad031e1, type: 2}
+      propertyPath: InitialModule.startRotationX.scalar
+      value: 0.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 1f7aa4d40edff6e48b549003cad031e1, type: 2}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 0.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 1f7aa4d40edff6e48b549003cad031e1, type: 2}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 15.0000
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: 1f7aa4d40edff6e48b549003cad031e1, type: 2}
       propertyPath: InitialModule.startRotationX.scalar
@@ -72355,6 +72411,49 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1570525552}
   m_Mesh: {fileID: 4300000, guid: c58f251a22830404da819b10cd083dc1, type: 3}
+--- !u!1 &1572297873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1572297875}
+  - component: {fileID: 1572297874}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1572297874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1572297873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 635aff897a6494d4ea93e7dbb6166137, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves: []
+  timeBetweenWaves: 5
+  waveCountdown: 0
+--- !u!4 &1572297875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1572297873}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.971432, y: -12.498758, z: -3.9510345}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1580968462
 GameObject:
   m_ObjectHideFlags: 0
