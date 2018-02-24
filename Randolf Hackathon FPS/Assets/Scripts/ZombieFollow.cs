@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyAI : MonoBehaviour {
+public class ZombieFollow : MonoBehaviour {
 
-    public int DamageAmt = 5;
-    public float targetDistance;
-    public float allowedRange = 2.7f;
+	// Use this for initialization
+	void Start () {
+		
+	}
 	
 	// Update is called once per frame
 	void Update () {
